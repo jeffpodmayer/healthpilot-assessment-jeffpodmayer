@@ -58,6 +58,7 @@ export function ContactForm({
             </label>
             <input
               id="phone"
+              type="tel"
               className="w-full px-4 py-3 border border-neutral-medium rounded-xl focus:border-primary-medium focus:border-2 focus:outline-none transition-colors placeholder:text-neutral-medium"
               placeholder="Phone Number"
               required
@@ -75,6 +76,7 @@ export function ContactForm({
             </label>
             <input
               id="email"
+              type="email"
               className="w-full px-4 py-3 border border-neutral-medium rounded-xl focus:border-primary-medium focus:border-2 focus:outline-none transition-colors placeholder:text-neutral-medium"
               placeholder="Email Address"
               required
@@ -86,6 +88,7 @@ export function ContactForm({
           <button
             className="bg-success-dark text-white py-3 w-full md:w-auto md:px-28 rounded-full font-semibold text-base md:text-lg hover:bg-success-light focus:border-2 focus:border-primary-lighter transition-colors"
             type="submit"
+            aria-label="Get started with Medicare consultation"
           >
             Submit
           </button>

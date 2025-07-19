@@ -28,6 +28,7 @@ export function Header() {
               onClick={() =>
                 window.open(import.meta.env.VITE_HEALTHPILOT_URL, "_blank")
               }
+              aria-label="Get started with Medicare consultation"
             >
               Get Started
             </button>
