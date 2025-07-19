@@ -1,6 +1,8 @@
 # EverWell Landing Page
 
-### 📝 A NOTE FROM JEFF: Hey HealthPilot, thanks so much for letting me participate in the interview process! I appreciated the challenge and I hope you find my work organized, clear and satisfactory. Stay cool and I hope to chat again!
+### 📝 A NOTE FROM JEFF:
+
+Hey HealthPilot, thanks so much for letting me participate in the interview process! I appreciated the challenge and I hope you find my work organized, clear and satisfactory. Stay cool and I hope to chat again!
 
 ## 🛠️ Technology Stack
 

@@ -11,7 +11,7 @@ export function ContactForm({
   onSubmit,
 }: ContactFormProps) {
   return (
-    <div className="bg-white rounded-b-2xl p-10">
+    <div className="bg-white rounded-b-2xl p-5 md:p-10">
       <form className="space-y-4" onSubmit={onSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
@@ -84,7 +84,7 @@ export function ContactForm({
 
         <div className="text-center pt-4 pb-1">
           <button
-            className="bg-success-dark text-white py-3 w-full md:w-auto md:px-28 rounded-full font-semibold hover:bg-success-light focus:border-2 focus:border-primary-lighter transition-colors"
+            className="bg-success-dark text-white py-3 w-full md:w-auto md:px-28 rounded-full font-semibold text-base md:text-lg hover:bg-success-light focus:border-2 focus:border-primary-lighter transition-colors"
             type="submit"
           >
             Submit

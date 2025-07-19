@@ -16,7 +16,7 @@ export function Header() {
 
           {/* Center Phrase */}
           <div className="hidden md:block flex-1 text-center">
-            <p className="text-sm italic text-neutral-dark">
+            <p className="text-md italic text-neutral-dark">
               Your Medicare Personal Shopper
             </p>
           </div>
@@ -24,7 +24,7 @@ export function Header() {
           {/* Get Started Button */}
           <div className="flex-shrink-0">
             <button
-              className="bg-success-dark hover:bg-success-light focus:outline-none focus:border-2 focus:border-primary-lighter text-white px-6 py-2 md:px-12 rounded-lg text-sm md:text-lg transition-colors duration-200 font-semibold"
+              className="bg-success-dark hover:bg-success-light focus:outline-none focus:border-2 focus:border-primary-lighter text-white px-5 py-2 md:px-12 rounded-lg text-base md:text-lg transition-colors duration-200 font-semibold"
               onClick={() =>
                 window.open(import.meta.env.VITE_HEALTHPILOT_URL, "_blank")
               }
