@@ -1,16 +1,18 @@
 # EverWell Landing Page
 
-### 📝 A NOTE FROM JEFF:
+### 📝 A Note From Jeff:
 
-Hey HealthPilot, thanks so much for letting me participate in the interview process! I appreciated the challenge and I hope you find my work organized, clear and satisfactory. Stay cool and I hope to chat again!
+Hey HealthPilot, 
+Thanks so much for letting me participate in the interview process! I appreciated the challenge and I hope you find my work organized, clear and satisfactory. 
+Stay cool and I hope to chat again!
 
 ## 🛠️ Technology Stack
 
 ### **Frontend Framework**
 
-- **React** - Latest React with concurrent features and improved performance
-- **TypeScript** - Type-safe development with strict type checking
-- **Vite** - Fast build tool and development server
+- **React** - Latest React 
+- **TypeScript** - Type-safe development 
+- **Vite** - Fast build tool
 
 ### **Styling & Design**
 
@@ -62,7 +64,7 @@ const [firstName, setFirstName] = useState("");
 
 ### Remaining Known Bug:
 
-- Alignement of SellingPoint Components on mobile is not aligned left.
+- Alignment of SellingPoint Components on mobile is not aligned left perfectly vertical together, but rather centered!
 
 ## 🚀 Getting Started
 
@@ -100,7 +102,7 @@ npm install
 
 ### **Environment Variables**
 
-Create a `.env` file in the root directory:
+The .env file should come with the ZIP, but if it does not -- Create a `.env` file in the root directory:
 
 ```env
 VITE_HEALTHPILOT_URL=https://www.healthpilot.com/
