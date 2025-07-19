@@ -1,4 +1,3 @@
-// src/components/ContactForm.tsx
 interface ContactFormProps {
   readonly firstName: string;
   readonly setFirstName: (name: string) => void;
